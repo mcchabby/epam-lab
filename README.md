@@ -46,17 +46,17 @@
 - Bring them back: git stash pop / git stash apply
 
 ## Teamwork
-**Blame:** See all commits related to the file
+**Blame:** See all commits related to the file  
 	- git blame *file*
-**Bisect:** Binary search
+**Bisect:** Binary search  
 	- git bisect start
-**Merge requests**
-	- Make feature in branch
-	- Review and merge from UI
-**Rebase:** Trying to create fast forward merges every time
-	Possible corruption of history. Non-linear history.
-	Never rebase the public branches
-**Cherry-Pick:** the way you can pick any commit in any branch and apply to any branch
+**Merge requests**  
+	- Make feature in branch  
+	- Review and merge from UI  
+**Rebase:** Trying to create fast forward merges every time  
+	Possible corruption of history. Non-linear history.  
+	Never rebase the public branches  
+**Cherry-Pick:** the way you can pick any commit in any branch and apply to any branch  
 
 ## Branching Strategies
 **Centralized Workflow:** Team uses 1 branch only
@@ -68,5 +68,5 @@
 **Forking Workflow:** Separate repository for each developer
 
 ## Books
-- [Pro Git] https://git-scm.com/book/en/v2
-- [Version Control with Git] http://shop.oreilly.com/product/0636920022862.do
+- [Pro Git](https://git-scm.com/book/en/v2)
+- [Version Control with Git](http://shop.oreilly.com/product/0636920022862.do)
